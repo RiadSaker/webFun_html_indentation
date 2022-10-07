@@ -1,34 +1,36 @@
+<!-- EXERCISE 2  -->
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Basic II
-    </title>
-    </head>
-    <body>
-        <table> 
-            <thead>
-                <tr><th>First Name</th><th>Last Name</th><th>Email</th><th>Password</th></tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        Brendan
-                    </td>
-                    <td>
-                        Stanton
-                </td>
-                <td>
-                        brendanrocks@gmail.com
-                    </td><td> FakePassword123 </td></tr>
-            </tbody>
+<html> <!-- Has no parent/has children(head and body) -->
+  <head>  <!-- Has a parent(html)/ has child(title) -->
+    <title>Basic II</title>  <!-- Has a parent(head)/has no children -->
+  </head>
+  <body>  <!-- Has a parent(html)/ has child(table) -->
+    <table> <!-- Has a parent(body)/ has child(thead) -->
+      <thead>  <!-- Has a parent(table)/ has child(tr) -->
+        <tr>    <!-- Has a parent(thead)/ has children(all of the below th) -->
+          <th>First Name</th>    <!-- Sibling -->
+          <th>Last Name</th>  <!-- Sibling -->
+          <th>Email</th>  <!-- Sibling -->
+          <th>Password</th>  <!-- Sibling -->
+        </tr>
+      </thead>
+      <tbody> <!-- Has a parent(table)/ has child(tr) -->
+        <tr>   <!-- Has a parent(tbody)/ has children(all of the below td) -->
+          <td>Brendan</td>   <!-- Sibling -->
+          <td>Stanton</td>   <!-- Sibling -->
+          <td>brendanrocks@gmail.com</td>   <!-- Sibling -->
+          <td>FakePassword123</td>  <!-- Sibling -->
+        </tr>
+      </tbody>
     </table>
-    <h1>Here is a list of my favorite things:</h1>
-        <ul><li>Food</li>
-    <li>Bandwidth</li>
-        <li>Coffee</li>
-        <li>Beach
-        </li>
+    <h1>Here is a list of my favorite things:</h1> <!-- Has a parent(body)/ sibling (ul) -->
+    <ul>  <!-- Has a parent(body)/ has children(all of the below li) -->
+      <li>Food</li>  <!-- Sibling -->
+      <li>Bandwidth</li> <!-- Sibling -->
+      <li>Coffee</li> <!-- Sibling -->
+      <li>Beach</li> <!-- Sibling -->
     </ul>
-    </body>
+  </body>
 </html>
+
